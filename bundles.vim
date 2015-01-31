@@ -129,7 +129,6 @@ NeoBundle 'mattn/webapi-vim'
 "NeoBundle 'tpope/vim-unimpaired'
 "NeoBundle 'reinh/vim-makegreen'
 
-NeoBundle 'Shougo/vimproc'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/unite-outline'
 NeoBundle 'ujihisa/unite-colorscheme'

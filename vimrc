@@ -8,6 +8,8 @@ if has('gui_running')
 end
 
 source ~/.vim/before.vim   " local BEFORE configs
+set clipboard=unnamed
+
 
 " after.vim is loaded from ./after/plugin/after.vim
 " which should place it AFTER all the other plugins in the loading order
