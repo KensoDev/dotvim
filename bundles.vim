@@ -18,8 +18,6 @@ NeoBundle 'jistr/vim-nerdtree-tabs'
 NeoBundle 'scrooloose/nerdcommenter'
 " fuzzy file open
 NeoBundle 'kien/ctrlp.vim'
-" popup completion menu
-NeoBundle 'AutoComplPop'
 " tags list navigation
 NeoBundle 'taglist.vim'
 " yank history
@@ -132,6 +130,12 @@ NeoBundle 'mattn/webapi-vim'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/unite-outline'
 NeoBundle 'ujihisa/unite-colorscheme'
+
+NeoBundle "fatih/vim-go"
+
+" Ack Support
+NeoBundle 'mileszs/ack.vim'
+NeoBundle 'stefanoverna/vim-plumber'
 
 call neobundle#end()
 
