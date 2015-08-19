@@ -95,3 +95,11 @@ runtime macros/matchit.vim
 
 let mapleader = ","
 let maplocalleader = "\\"
+
+map <Leader>s :split<CR>
+map <Leader>v :vsplit<CR>
+
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+
+nmap <Leader>jj :%!python -m json.tool<CR>

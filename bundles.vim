@@ -27,7 +27,8 @@ NeoBundle 'tpope/vim-fugitive'
 " syntax checking on save
 NeoBundle 'scrooloose/syntastic'
 " TextMate-style snippets
-NeoBundle 'msanders/snipmate.vim'
+NeoBundle 'SirVer/ultisnips'
+NeoBundle 'honza/vim-snippets'
 " manipulation of surraunding parens, quotes, etc.
 NeoBundle 'tpope/vim-surround'
 " vertical alignment tool
@@ -107,6 +108,7 @@ NeoBundle 'elixir-lang/vim-elixir'
 NeoBundle 'Blackrush/vim-gocode'
 NeoBundle 'ekalinin/Dockerfile.vim'
 NeoBundle 'groenewege/vim-less'
+NeoBundle 'motus/pig.vim'
 
 " Support and minor
 
@@ -136,6 +138,7 @@ NeoBundle "fatih/vim-go"
 " Ack Support
 NeoBundle 'mileszs/ack.vim'
 NeoBundle 'stefanoverna/vim-plumber'
+NeoBundle 'junegunn/goyo.vim'
 
 call neobundle#end()
 

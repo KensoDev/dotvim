@@ -1,0 +1,23 @@
+# Some comment
+snippet change
+	## ${1}
+
+	* [@KensoDev] - `strftime("%Y/%m/%d")` - ${2}
+
+snippet code
+	\`\`\`${1}
+	${2}
+	\`\`\`
+
+snippet c
+	\`${1}\`
+
+snippet link
+	[${1:${VISUAL:Text}}](${3:http://${2:www.url.com}})$0
+
+snippet img
+	![${1:pic alt}](${2:path}${3/.+/ "/}${3:opt title}${3/.+/"/})$0
+
+snippet imgwrap
+	{% imgwrap ${}}
+
