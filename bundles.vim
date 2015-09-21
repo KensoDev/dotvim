@@ -89,6 +89,7 @@ NeoBundle 'josemarluedke/vim-rspec'
 NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'tpope/vim-vividchalk'
 NeoBundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
+NeoBundle 'gilgigilgil/anderson.vim'
 
 " syntax support
 NeoBundle 'vim-ruby/vim-ruby'
@@ -109,6 +110,7 @@ NeoBundle 'Blackrush/vim-gocode'
 NeoBundle 'ekalinin/Dockerfile.vim'
 NeoBundle 'groenewege/vim-less'
 NeoBundle 'motus/pig.vim'
+NeoBundle 'maksimr/vim-jsbeautify'
 
 " Support and minor
 
@@ -139,6 +141,7 @@ NeoBundle "fatih/vim-go"
 NeoBundle 'mileszs/ack.vim'
 NeoBundle 'stefanoverna/vim-plumber'
 NeoBundle 'junegunn/goyo.vim'
+
 
 call neobundle#end()
 

@@ -1,0 +1,61 @@
+snippet gotestclass
+	package ${1}
+
+	import (
+		"github.com/stretchr/testify/assert"
+		"github.com/stretchr/testify/mock"
+		. "gopkg.in/check.v1"
+		"testing"
+	)
+
+	func Test${2}(t *testing.T) { TestingT(t) }
+
+	type $2Suite struct{}
+
+	var _ = Suite(&$2Suite{})
+
+	func (s *$2Suite) Test${3}(c *C) {
+	}
+
+snippet gotest
+	func (s *${1:TestSuiteName}Suite) Test${2:TestName}(t *testing.T) {
+		${0:${VISUAL}}
+	}
+
+snippet struct
+	type ${1} struct {
+		${0:${VISUAL}}
+	}
+
+snippet interface
+	type ${1} interface {
+		${0:${VISUAL}}
+	}
+
+snippet err "Basic error handling"
+	if err != nil {
+		log.${1:Fatal}(err)
+	}
+
+snippet json "JSON field"
+	\`json:"${1:displayName}"\`
+
+snippet /^meth/ "Method"
+	func (${1:receiver} ${2:type}) ${3:name}(${4:params})${5/(.+)/ /}${5:type} {
+		${0:${VISUAL}}
+	}
+
+snippet funct "Function"
+	func ${1:name}(${2:params})${3/(.+)/ /}${3:type} {
+		${0:${VISUAL}}
+	}
+
+snippet funch "HTTP handler"
+	func ${1:handler}(${2:w} http.ResponseWriter, ${3:r} *http.Request) {
+		${0:${VISUAL}}
+	}
+
+snippet fori "Integer for loop"
+	for ${1:i} := 0; $1 < ${2:N}; $1++ {
+		${0:${VISUAL}}
+	}
