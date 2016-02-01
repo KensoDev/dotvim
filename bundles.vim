@@ -142,6 +142,7 @@ NeoBundle 'mileszs/ack.vim'
 NeoBundle 'stefanoverna/vim-plumber'
 NeoBundle 'junegunn/goyo.vim'
 
+NeoBundle 'editorconfig/editorconfig-vim'
 
 call neobundle#end()
 
