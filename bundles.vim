@@ -78,18 +78,10 @@ NeoBundle 'tpope/vim-rake'
 NeoBundle 'nelstrom/vim-textobj-rubyblock'
 " ruby refactoring
 NeoBundle 'ecomba/vim-ruby-refactoring'
-" apidock.com docs integration
-NeoBundle 'apidock.vim'
 " toggle ruby blocks style
 NeoBundle 'vim-scripts/blockle.vim'
 " lightweight Rspec runner for Vim
 NeoBundle 'josemarluedke/vim-rspec'
-
-" color themes
-NeoBundle 'altercation/vim-colors-solarized'
-NeoBundle 'tpope/vim-vividchalk'
-NeoBundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
-NeoBundle 'gilgigilgil/anderson.vim'
 
 " syntax support
 NeoBundle 'vim-ruby/vim-ruby'
@@ -108,7 +100,6 @@ NeoBundle 'slim-template/vim-slim'
 NeoBundle 'elixir-lang/vim-elixir'
 NeoBundle 'Blackrush/vim-gocode'
 NeoBundle 'ekalinin/Dockerfile.vim'
-NeoBundle 'groenewege/vim-less'
 NeoBundle 'motus/pig.vim'
 NeoBundle 'maksimr/vim-jsbeautify'
 
