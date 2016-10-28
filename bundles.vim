@@ -1,4 +1,4 @@
-set nocompatible
+"set nocompatible
 filetype off
 
 if has('vim_starting')
@@ -12,51 +12,25 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 
 " file tree
 NeoBundle 'scrooloose/nerdtree'
-" file tree and tabs interaction
-NeoBundle 'jistr/vim-nerdtree-tabs'
 " commenting
 NeoBundle 'scrooloose/nerdcommenter'
 " fuzzy file open
 NeoBundle 'kien/ctrlp.vim'
-" tags list navigation
-NeoBundle 'taglist.vim'
-" yank history
-NeoBundle 'YankRing.vim'
 " git integration
 NeoBundle 'tpope/vim-fugitive'
-" syntax checking on save
-NeoBundle 'scrooloose/syntastic'
 " TextMate-style snippets
 NeoBundle 'SirVer/ultisnips'
 NeoBundle 'honza/vim-snippets'
-" manipulation of surraunding parens, quotes, etc.
-NeoBundle 'tpope/vim-surround'
-" vertical alignment tool
-NeoBundle 'tsaleh/vim-align'
-" 'ag' searching integration
-NeoBundle 'rking/ag.vim'
-" text object based on indent level (ai, ii)
-NeoBundle 'austintaylor/vim-indentobject'
 " global search & replace
 NeoBundle 'greplace.vim'
 " better looking statusline
 NeoBundle 'bling/vim-airline'
-" plugin for resolving three-way merge conflicts
-NeoBundle 'sjl/splice.vim'
-" plugin for visually displaying indent levels
-NeoBundle 'Indent-Guides'
 " end certain structures automatically, e.g. begin/end etc.
 NeoBundle 'tpope/vim-endwise'
 " automatic closing of quotes, parenthesis, brackets, etc.
 NeoBundle 'Raimondi/delimitMate'
-" calendar, duh!
-NeoBundle 'calendar.vim--Matsumoto'
 " A Narrow Region Plugin (similar to Emacs)
 NeoBundle 'chrisbra/NrrwRgn'
-" url based hyperlinks for text files
-NeoBundle 'utl.vim'
-" A clone of Emacs' Org-mode for Vim
-NeoBundle 'hsitz/VimOrganizer'
 " visual undo tree
 NeoBundle 'sjl/gundo.vim'
 " switch segments of text with predefined replacements. e.g. '' -> ""
@@ -70,16 +44,12 @@ NeoBundle 'airblade/vim-gitgutter'
 
 " rails support
 NeoBundle 'tpope/vim-rails'
-" bundler integration (e.g. :Bopen)
-NeoBundle 'tpope/vim-bundler'
 " rake integration
 NeoBundle 'tpope/vim-rake'
 " A custom text object for selecting ruby blocks (ar/ir)
 NeoBundle 'nelstrom/vim-textobj-rubyblock'
 " ruby refactoring
 NeoBundle 'ecomba/vim-ruby-refactoring'
-" toggle ruby blocks style
-NeoBundle 'vim-scripts/blockle.vim'
 " lightweight Rspec runner for Vim
 NeoBundle 'josemarluedke/vim-rspec'
 
@@ -88,17 +58,13 @@ NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'tsaleh/vim-tmux'
 NeoBundle 'Puppet-Syntax-Highlighting'
 NeoBundle 'JSON.vim'
-NeoBundle 'tpope/vim-cucumber'
-NeoBundle 'tpope/vim-haml'
 NeoBundle 'tpope/vim-markdown'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'vitaly/vim-syntastic-coffee'
 NeoBundle 'vim-scripts/jade.vim'
-NeoBundle 'wavded/vim-stylus'
 NeoBundle 'VimClojure'
 NeoBundle 'slim-template/vim-slim'
 NeoBundle 'elixir-lang/vim-elixir'
-NeoBundle 'Blackrush/vim-gocode'
 NeoBundle 'ekalinin/Dockerfile.vim'
 NeoBundle 'motus/pig.vim'
 NeoBundle 'maksimr/vim-jsbeautify'
@@ -135,7 +101,10 @@ NeoBundle 'junegunn/goyo.vim'
 
 NeoBundle 'editorconfig/editorconfig-vim'
 
+" Javascript development
+NeoBundle 'pangloss/vim-javascript'
+NeoBundle 'mxw/vim-jsx'
+
 call neobundle#end()
 
 filetype plugin indent on
-

@@ -1,0 +1,73 @@
+snippet simplecomp
+	import React, { Component } from 'react';
+	import ReactDOM from 'react-dom';
+
+	export default function ${1}(props) {
+	  return(
+	    <div></div>
+	  );
+	}
+
+snippet reducer
+	import * as actionTypes from '../../constants/actionTypes';
+	const initialState = {
+	}
+
+	export default function ${1}(state = initialState, action) {
+	  ${2}
+	}
+
+snippet action
+	import * as actionTypes from '../constants/actionTypes';
+
+	export function ${1:actionName}(${2:params}) {
+	  ${3}
+	}
+
+snippet reducerspec
+	import * as actions from '../../actions'
+	import * as types from '../../constants/actionTypes'
+	import ${1:name} from './${2:filelocation}'
+
+	describe('${3:className}', () => {
+	});
+
+snippet compindex
+	import React from 'react';
+	import { bindActionCreators } from 'redux';
+	import { connect } from 'react-redux';
+	import * as actions from '../../actions';
+	import ${1:componentName} from './presenter';
+
+	function mapStateToProps(state) {
+	  return {
+	  }
+	}
+
+	function mapDispatchToProps(dispatch) {
+	  return {
+	  };
+	}
+
+	export default connect(mapStateToProps, mapDispatchToProps)(${2:componentName});
+
+snippet presenter
+	import React, { Component } from 'react';
+	import ReactDOM from 'react-dom';
+
+	require('./style.css');
+
+	class ${1:componentName} extends Component {
+	  constructor(props) {
+	    super(props);
+	  }
+
+	  render() {
+	    return (
+	      <div>
+	      </div>
+	    );
+	  }
+	}
+
+	export default ${2:componentName};
