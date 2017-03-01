@@ -8,8 +8,30 @@ snippet simplecomp
 	  );
 	}
 
+snippet reducerSpec
+	import * as actions from './Actions'
+	import * as types from './ActionTypes'
+	import ${1} from './Reducer'
+
+	describe('${2}', () => {
+	  // Example spec
+	  //
+	  //
+	  it('Toggles the Hotel item into the selected array', function() {
+	    let initialState = {
+	      selected: []
+	    };
+	    let action = {
+	      itemType: 'Hotel',
+	      type: types.TOGGLE_ITEM_TYPE
+	    };
+	    let newState = itemTypeReducer(initialState, action);
+	    expect(newState.selected[0]).to.eq("Hotel");
+	  });
+	});
+
 snippet reducer
-	import * as actionTypes from '../../constants/actionTypes';
+	import * as actionTypes from './ActionTypes';
 	const initialState = {
 	}
 
@@ -18,25 +40,18 @@ snippet reducer
 	}
 
 snippet action
-	import * as actionTypes from '../constants/actionTypes';
+	import * as actionTypes from './ActionTypes';
 
 	export function ${1:actionName}(${2:params}) {
 	  ${3}
 	}
 
-snippet reducerspec
-	import * as actions from '../../actions'
-	import * as types from '../../constants/actionTypes'
-	import ${1:name} from './${2:filelocation}'
-
-	describe('${3:className}', () => {
-	});
 
 snippet compindex
 	import React from 'react';
 	import { bindActionCreators } from 'redux';
 	import { connect } from 'react-redux';
-	import * as actions from '../../actions';
+	import * as actions from './Actions';
 	import ${1:componentName} from './presenter';
 
 	function mapStateToProps(state) {

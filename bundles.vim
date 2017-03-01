@@ -21,8 +21,6 @@ NeoBundle 'tpope/vim-fugitive'
 " TextMate-style snippets
 NeoBundle 'SirVer/ultisnips'
 NeoBundle 'honza/vim-snippets'
-" global search & replace
-NeoBundle 'greplace.vim'
 " better looking statusline
 NeoBundle 'bling/vim-airline'
 " end certain structures automatically, e.g. begin/end etc.
@@ -68,6 +66,7 @@ NeoBundle 'elixir-lang/vim-elixir'
 NeoBundle 'ekalinin/Dockerfile.vim'
 NeoBundle 'motus/pig.vim'
 NeoBundle 'maksimr/vim-jsbeautify'
+NeoBundle 'vim-syntastic/syntastic'
 
 " Support and minor
 
@@ -81,12 +80,6 @@ NeoBundle 'vitaly/vim-gitignore'
 NeoBundle 'scrooloose/vim-space'
 " Github's gist support
 NeoBundle 'mattn/gist-vim'
-" web APIs support
-NeoBundle 'mattn/webapi-vim'
-
-"NeoBundle 'ShowMarks'
-"NeoBundle 'tpope/vim-unimpaired'
-"NeoBundle 'reinh/vim-makegreen'
 
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/unite-outline'
@@ -104,6 +97,12 @@ NeoBundle 'editorconfig/editorconfig-vim'
 " Javascript development
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'mxw/vim-jsx'
+
+" Aligner
+NeoBundle "tsaleh/vim-align"
+
+NeoBundle 'easymotion/vim-easymotion'
+NeoBundle 'elentok/plaintasks.vim'
 
 call neobundle#end()
 

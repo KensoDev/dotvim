@@ -13,6 +13,18 @@ source ~/.vim/before.vim   " local BEFORE configs
 set clipboard=unnamed
 set rnu
 
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 0
+
+let g:syntastic_javascript_checkers = ['eslint']
+
+map <Leader> <Plug>(easymotion-prefix)
 
 " after.vim is loaded from ./after/plugin/after.vim
 " which should place it AFTER all the other plugins in the loading order
