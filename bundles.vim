@@ -23,6 +23,7 @@ NeoBundle 'SirVer/ultisnips'
 NeoBundle 'honza/vim-snippets'
 " better looking statusline
 NeoBundle 'bling/vim-airline'
+NeoBundle 'vim-airline/vim-airline-themes'
 " end certain structures automatically, e.g. begin/end etc.
 NeoBundle 'tpope/vim-endwise'
 " automatic closing of quotes, parenthesis, brackets, etc.
@@ -89,7 +90,6 @@ NeoBundle "fatih/vim-go"
 
 " Ack Support
 NeoBundle 'mileszs/ack.vim'
-NeoBundle 'stefanoverna/vim-plumber'
 NeoBundle 'junegunn/goyo.vim'
 
 NeoBundle 'editorconfig/editorconfig-vim'
@@ -102,7 +102,7 @@ NeoBundle 'mxw/vim-jsx'
 NeoBundle "tsaleh/vim-align"
 
 NeoBundle 'easymotion/vim-easymotion'
-NeoBundle 'elentok/plaintasks.vim'
+NeoBundle 'irrationalistic/vim-tasks'
 
 call neobundle#end()
 
