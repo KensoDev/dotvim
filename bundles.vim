@@ -79,8 +79,8 @@ NeoBundle 'tpope/vim-repeat'
 NeoBundle 'vitaly/vim-gitignore'
 " repeat motion with <Space>
 NeoBundle 'scrooloose/vim-space'
-" Github's gist support
-NeoBundle 'mattn/gist-vim'
+
+NeoBundle 'keith/gist.vim'
 
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/unite-outline'
