@@ -39,17 +39,8 @@ NeoBundle 'tpope/vim-dispatch'
 NeoBundle 'airblade/vim-gitgutter'
 
 " Ruby/Rails
-
-" rails support
-NeoBundle 'tpope/vim-rails'
-" rake integration
-NeoBundle 'tpope/vim-rake'
 " A custom text object for selecting ruby blocks (ar/ir)
 NeoBundle 'nelstrom/vim-textobj-rubyblock'
-" ruby refactoring
-NeoBundle 'ecomba/vim-ruby-refactoring'
-" lightweight Rspec runner for Vim
-NeoBundle 'josemarluedke/vim-rspec'
 
 " syntax support
 NeoBundle 'vim-ruby/vim-ruby'
@@ -83,7 +74,7 @@ NeoBundle 'mattn/gist-vim'
 
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/unite-outline'
-NeoBundle 'ujihisa/unite-colorscheme'
+NeoBundle 'jacoborus/tender.vim'
 
 NeoBundle "fatih/vim-go"
 
@@ -102,7 +93,12 @@ NeoBundle 'mxw/vim-jsx'
 NeoBundle "tsaleh/vim-align"
 
 NeoBundle 'easymotion/vim-easymotion'
-NeoBundle 'elentok/plaintasks.vim'
+NeoBundle 'irrationalistic/vim-tasks'
+NeoBundle 'nvie/vim-flake8'
+NeoBundle 'janko-m/vim-test'
+
+NeoBundle 'prettier/vim-prettier'
+
 
 call neobundle#end()
 
