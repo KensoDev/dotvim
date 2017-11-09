@@ -39,34 +39,16 @@ NeoBundle 'tpope/vim-dispatch'
 " git diff in the gutter (sign column) and stages/reverts hunks
 NeoBundle 'airblade/vim-gitgutter'
 
-" Ruby/Rails
-
-" rails support
-NeoBundle 'tpope/vim-rails'
-" rake integration
-NeoBundle 'tpope/vim-rake'
-" A custom text object for selecting ruby blocks (ar/ir)
-NeoBundle 'nelstrom/vim-textobj-rubyblock'
-" ruby refactoring
-NeoBundle 'ecomba/vim-ruby-refactoring'
-" lightweight Rspec runner for Vim
-NeoBundle 'josemarluedke/vim-rspec'
-
 " syntax support
-NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'tsaleh/vim-tmux'
 NeoBundle 'Puppet-Syntax-Highlighting'
 NeoBundle 'JSON.vim'
 NeoBundle 'tpope/vim-markdown'
-NeoBundle 'kchmck/vim-coffee-script'
-NeoBundle 'vitaly/vim-syntastic-coffee'
 NeoBundle 'vim-scripts/jade.vim'
 NeoBundle 'VimClojure'
 NeoBundle 'slim-template/vim-slim'
 NeoBundle 'elixir-lang/vim-elixir'
 NeoBundle 'ekalinin/Dockerfile.vim'
-NeoBundle 'motus/pig.vim'
-NeoBundle 'maksimr/vim-jsbeautify'
 NeoBundle 'vim-syntastic/syntastic'
 
 " Support and minor
@@ -85,6 +67,7 @@ NeoBundle 'keith/gist.vim'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/unite-outline'
 NeoBundle 'ujihisa/unite-colorscheme'
+NeoBundle 'dracula/vim'
 
 NeoBundle "fatih/vim-go"
 
@@ -103,6 +86,14 @@ NeoBundle "tsaleh/vim-align"
 
 NeoBundle 'easymotion/vim-easymotion'
 NeoBundle 'irrationalistic/vim-tasks'
+
+" Running tests
+NeoBundle 'janko-m/vim-test'
+NeoBundle 'benmills/vimux'
+
+" Color scheme
+NeoBundle 'danilo-augusto/vim-afterglow'
+NeoBundle 'AlessandroYorba/Alduin'
 
 call neobundle#end()
 
