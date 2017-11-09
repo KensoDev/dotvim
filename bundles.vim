@@ -38,25 +38,17 @@ NeoBundle 'tpope/vim-dispatch'
 " git diff in the gutter (sign column) and stages/reverts hunks
 NeoBundle 'airblade/vim-gitgutter'
 
-" Ruby/Rails
-" A custom text object for selecting ruby blocks (ar/ir)
-NeoBundle 'nelstrom/vim-textobj-rubyblock'
 
 " syntax support
-NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'tsaleh/vim-tmux'
 NeoBundle 'Puppet-Syntax-Highlighting'
 NeoBundle 'JSON.vim'
 NeoBundle 'tpope/vim-markdown'
-NeoBundle 'kchmck/vim-coffee-script'
-NeoBundle 'vitaly/vim-syntastic-coffee'
 NeoBundle 'vim-scripts/jade.vim'
 NeoBundle 'VimClojure'
 NeoBundle 'slim-template/vim-slim'
 NeoBundle 'elixir-lang/vim-elixir'
 NeoBundle 'ekalinin/Dockerfile.vim'
-NeoBundle 'motus/pig.vim'
-NeoBundle 'maksimr/vim-jsbeautify'
 NeoBundle 'vim-syntastic/syntastic'
 
 " Support and minor
@@ -69,18 +61,16 @@ NeoBundle 'tpope/vim-repeat'
 NeoBundle 'vitaly/vim-gitignore'
 " repeat motion with <Space>
 NeoBundle 'scrooloose/vim-space'
-" Github's gist support
-NeoBundle 'mattn/gist-vim'
+
+NeoBundle 'keith/gist.vim'
 
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/unite-outline'
-NeoBundle 'jacoborus/tender.vim'
 
 NeoBundle "fatih/vim-go"
 
 " Ack Support
 NeoBundle 'mileszs/ack.vim'
-NeoBundle 'stefanoverna/vim-plumber'
 NeoBundle 'junegunn/goyo.vim'
 
 NeoBundle 'editorconfig/editorconfig-vim'
@@ -93,11 +83,20 @@ NeoBundle 'mxw/vim-jsx'
 NeoBundle "tsaleh/vim-align"
 
 NeoBundle 'easymotion/vim-easymotion'
-NeoBundle 'irrationalistic/vim-tasks'
-NeoBundle 'nvie/vim-flake8'
-NeoBundle 'janko-m/vim-test'
 
+" python
+NeoBundle 'nvie/vim-flake8'
+
+" Running tests
+NeoBundle 'janko-m/vim-test'
+NeoBundle 'benmills/vimux'
+
+" Javascript
 NeoBundle 'prettier/vim-prettier'
+
+" Color scheme
+NeoBundle 'danilo-augusto/vim-afterglow'
+NeoBundle 'AlessandroYorba/Alduin'
 
 
 call neobundle#end()
